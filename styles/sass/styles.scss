@@ -1,0 +1,6 @@
+// SCSS Stylesheet with imported partials
+
+@use 'partials/setup';
+@use 'partials/variables';
+@use 'partials/typography';
+@use 'partials/base';
