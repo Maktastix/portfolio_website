@@ -225,3 +225,45 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+html {
+  font-size: 125%;
+  font-family: "Inconsolata", monospace;
+  color: #F2F4F5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Karla", sans-serif;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+html {
+  background-color: #272727;
+}
+
+.wrapper {
+  width: 80%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.nav_links img {
+  width: 50px;
+}
+
+.skills img {
+  width: 120px;
+  height: auto;
+}
+
+.skills_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}

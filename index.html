@@ -4,13 +4,250 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1f2a91a9e1.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./assets/icons8_m_key_inverse.png">
+    <link rel="stylesheet" href="./styles/styles.css">
     <title>Michael Makinde</title>
 </head>
+
 <body>
 
     <header>
-        <h1>Michael Makinde</h1>
+        <div class="wrapper">
+            <div class="nav_links">
+                <a href="./index.html"><img src="./assets/icons8_m_key_dark.png" alt="Letter key M logo for site"></a>
+                <nav>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">PROJECTS</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <h1>Michael Makinde</h1>
+                <p>Toronto Based Web Developer</p>
+                <button>View My Work<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
     </header>
+
+    <main>
+
+        <section class="about_me">
+            <div class="wrapper">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis culpa quibusdam a deserunt ratione totam consequuntur magni! Labore ipsam, tempore nulla aperiam quae quasi. Sapiente sit corrupti debitis dolore amet, rerum quos ex dolores! Esse officia modi tempora cum non?</p>
+            </div>
+        </section>
+
+        <section class="skills">
+            <div class="wrapper">
+                <h2>Skills</h2>
+                <div class="skills_icons">
+
+                    <div class="skills_container">
+                        <div class="icon_container">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="Image icon for HTML5 (Hyper-Text Markup Language)"/>
+                        </div>
+                        <p class="text_container">HTML5</p>
+                    </div>
+
+                    <div class="skills_container">
+                        <div class="icon_container">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="Image icon for CSS3 (Cascading Style Sheets)"/>
+                        </div>
+                        <p class="text_container">CSS3</p>
+                    </div>
+
+                    <div class="skills_container">
+                        <div class="icon_container">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="Image icon for SASS (Syntactically Awesome Style Sheets)"/>
+                        </div>
+                        <p class="text_container">SASS</p>
+                    </div>
+
+                    <div class="skills_container">
+                        <div class="icon_container">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Image icon for JavaScript programming language (EcmaScript 6)"/>
+                        </div>
+                        <p class="text_container">JavaScript(ES6+)</p>
+                    </div>
+
+                    <div class="skills_container">
+                        <div class="icon_container">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="Image icon for React JavaScript library"/>
+                        </div>
+                        <p class="text_container">REACT</p>
+                    </div>
+
+                    <div class="skills_container">
+                        <div class="icon_container">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Image icon for Node.js back-end JavaScript server environment"/>
+                        </div>
+                        <p class="text_container">NODE.JS</p>
+                    </div>
+
+                    <div class="skills_container">
+                        <div class="icon_container">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Image icon for Firebase realtime database"/>
+                        </div>
+                        <p class="text_container">FIREBASE</p>
+                    </div>
+
+                    <div class="skills_container">
+                        <div class="icon_container">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Image icon for GitHub development platform"/>
+                        </div>
+                        <p class="text_container">GITHUB</p>
+                    </div>
+
+                    <div class="skills_container">
+                        <div class="icon_container">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Image icon for Git version control system"/>
+                        </div>
+                        <p class="text_container">GIT</p>
+                    </div>
+
+                    <div class="skills_container">
+                        <div class="icon_container">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="Image icon for C programming language"/>
+                        </div>
+                        <p class="text_container">C</p>
+                    </div>
+
+                    <div class="skills_container">
+                        <div class="icon_container">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="Image icon for Visual Studio Code editor"/>
+                        </div>
+                        <p class="text_container">VS CODE</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="wrapper">
+                <h2>Projects</h2>
+                <div class="projects_div">
+                    <div class="project_container">
+                        <div class="project_image">
+                            <img src="#" alt="Image showcasing project">
+                        </div>
+                        <div class="project_details">
+                            <h3>project title here</h3>
+                            <p class="tools">placeholder text</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam necessitatibus, cumque ipsam quasi mollitia rem nam laborum perferendis facere reprehenderit!</p>
+                            <div class="project_buttons">
+                                <div class="live_button">
+                                    <a href="#">View Live</a>
+                                </div>
+                                <div class="code_button">
+                                    <a href="#">View Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project_container">
+                        <div class="project_image">
+                            <img src="#" alt="Image showcasing project">
+                        </div>
+                        <div class="project_details">
+                            <h3>project title here</h3>
+                            <p class="tools">placeholder text</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam necessitatibus, cumque ipsam quasi mollitia rem nam laborum perferendis facere reprehenderit!</p>
+                            <div class="project_buttons">
+                                <div class="live_button">
+                                    <a href="#">View Live</a>
+                                </div>
+                                <div class="code_button">
+                                    <a href="#">View Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project_container">
+                        <div class="project_image">
+                            <img src="#" alt="Image showcasing project">
+                        </div>
+                        <div class="project_details">
+                            <h3>project title here</h3>
+                            <p class="tools">placeholder text</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam necessitatibus, cumque ipsam quasi mollitia rem nam laborum perferendis facere reprehenderit!</p>
+                            <div class="project_buttons">
+                                <div class="live_button">
+                                    <a href="#">View Live</a>
+                                </div>
+                                <div class="code_button">
+                                    <a href="#">View Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="wrapper">
+                <h2>Get In Touch</h2>
+                <div class="contact_icons">
+                    <div class="media">
+                        <div class="icon_container">
+                            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                        </div>
+                        <div class="text_container">
+                            <a href="#">LinkedIn</a>
+                        </div>
+                    </div>
+
+                    <div class="media">
+                        <div class="icon_container">
+                            <i class="fa-brands fa-square-github" aria-hidden="true"></i>
+                        </div>
+                        <div class="text_container">
+                            <a href="#">GitHub</a>
+                        </div>
+                    </div>
+                    
+                    <div class="media">
+                        <div class="icon_container">
+                            <i class="fa-brands fa-square-instagram" aria-hidden="true"></i>
+                        </div>
+                        <div class="text_container">
+                            <a href="#">Instagram</a> 
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, quidem!</p>
+                <form class=form_message action="/submit-message" id="form_1">
+                    <div class="name_container">
+                        <label for="name">NAME</label>
+                        <input type="text" id="name" name="email" placeholder="Enter your name" required>
+                    </div>
+                    <div class="email_container">
+                        <label for="email">EMAIL ADDRESS</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="message_container">
+                        <label for="message">MESSAGE</label>
+                        <textarea id="message" name="message" required cols="40" rows="8" placeholder="Enter your message"></textarea>
+                    </div>
+                </form>
+                <button type="submit" form="form_1" value="submit">Submit</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built in 2023 by Michael Makinde</p>
+    </footer>
     
 </body>
 </html>

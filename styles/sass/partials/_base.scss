@@ -1,1 +1,27 @@
 // Base Styles Partial
+
+@use 'variables' as *;
+
+html{
+    background-color: $dark_black;
+}
+
+.wrapper{
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.nav_links img{
+    width: 50px;
+}
+
+.skills img{
+    width: 120px;
+    height: auto;
+}
+
+.skills_icons{
+    display: flex;
+    flex-wrap: wrap;
+}
