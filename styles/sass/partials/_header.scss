@@ -73,12 +73,7 @@ header{
 
         i{
             margin-left: 10px;
-            transition: ease-in-out 0.3s;
-
-            &:hover,
-            &:focus{
-                transform: rotate(90deg);
-            }
+            transform: rotate(90deg);
         }
     }
 }

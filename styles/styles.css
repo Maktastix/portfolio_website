@@ -286,6 +286,7 @@ p {
 
 html {
   background-color: #272727;
+  scroll-behavior: smooth;
 }
 
 .wrapper {
@@ -383,10 +384,6 @@ header .header_intro a:hover, header .header_intro a:focus {
 }
 header .header_intro i {
   margin-left: 10px;
-  -webkit-transition: ease-in-out 0.3s;
-  transition: ease-in-out 0.3s;
-}
-header .header_intro i:hover, header .header_intro i:focus {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
 }
@@ -659,10 +656,36 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+footer p {
+  margin: 5px;
+}
+footer .code_link {
+  font-size: 0.6rem;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+footer .code_link:hover, footer .code_link:focus {
+  color: #ffbb00;
+}
+
+@media (max-width: 1060px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+@media (max-width: 940px) {
+  .wrapper {
+    width: 97%;
+  }
 }

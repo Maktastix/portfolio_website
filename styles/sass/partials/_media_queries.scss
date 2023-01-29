@@ -1,0 +1,19 @@
+// Media Queries 
+
+@use 'variables' as *;
+
+@media (max-width: 1060px){
+    .wrapper{
+        width: 90%;
+    }
+}
+
+@media (max-width: 940px){
+    .wrapper{
+        width: 97%;
+    }
+}
+
+@media (max-width: 830px){
+    
+}

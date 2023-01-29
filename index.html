@@ -11,6 +11,18 @@
     <link rel="icon" href="./assets/icons8_m_key_blue.png">
     <link rel="stylesheet" href="./styles/styles.css">
     <title>John Doe</title>
+    <!--
+        Images and Icons used from 
+        Font-Awesome: url('https://fontawesome.com/')
+        Icons8: url('https://icons8.com/') 
+        DevIcon: url('https://devicon.dev/')
+        UnSplash: url('https://unsplash.com/')
+        
+        Credit to:
+
+        Photo by <a href="https://unsplash.com/@pankajpatel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pankaj Patel</a> on <a href="https://unsplash.com/photos/1IW4HQuauSU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    -->
+    
 </head>
 
 <body>
@@ -21,24 +33,28 @@
                 <div class="wrapper nav_links">
                     <a href="./index.html"><img src="./assets/icons8_m_key_inverse.png" alt="Letter key M logo for site"></a>
                     <ul>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">PROJECTS</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                        <li><a class="item" href="./index.html">HOME</a></li>
+                        <li><a class="item" href="#about_scroll">ABOUT</a></li>
+                        <li><a class="item" href="#project_scroll">PROJECTS</a></li>
+                        <li><a class="item" href="#contact_scroll">CONTACT</a></li>
                     </ul>
                 </div>
             </nav>
+            <button class="hamburger_menu">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+                <i class="fa-sharp fa-solid fa-xmark"></i>
+            </button>
             <div class="wrapper header_intro">
                 <h1>John Doe</h1>
                 <p>A Front-End Web Developer who enjoys building anything and everything. Come check it out! </p>
-                <a href="#">View My Work<i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#project_scroll">Skip to Projects<i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </div>
     </header>
 
     <main>
 
-        <section class="about_me">
+        <section class="about_me" id="about_scroll">
             <div class="wrapper">
                 <h2>About Me</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis culpa quibusdam a deserunt ratione totam consequuntur magni! Labore ipsam, tempore nulla aperiam quae quasi. Sapiente sit corrupti debitis dolore amet, rerum quos ex dolores! Esse officia modi tempora cum non?</p>
@@ -126,11 +142,18 @@
                         </div>
                         <p class="text_container">VS CODE</p>
                     </div>
+
+                    <div class="skills_container">
+                        <div class="icon_container">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firefox/firefox-original.svg" alt="Image icon for Visual Studio Code editor"/>  
+                        </div>
+                        <p class="text_container">DEV TOOLS</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="projects">
+        <section class="projects"  id="project_scroll">
             <div class="wrapper">
                 <h2>Projects</h2>
                 <div class="projects_div">
@@ -158,7 +181,7 @@
                             <img src="./assets/unsplash_code_photo.jpg" alt="Image showcasing project">
                         </div>
                         <div class="project_details">
-                            <h3>project title here</h3>
+                            <h3>Pokedex Project</h3>
                             <p class="tools">placeholder text</p>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam necessitatibus, cumque ipsam quasi mollitia rem nam laborum perferendis facere reprehenderit!</p>
                             <div class="project_buttons">
@@ -194,7 +217,7 @@
             </div>
         </section>
 
-        <section class="contact">
+        <section class="contact" id="contact_scroll">
             <div class="wrapper">
                 <h2>Get In Touch</h2>
                 <div class="contact_icons">
@@ -247,6 +270,7 @@
 
     <footer>
         <p>Built in 2023 by Michael Makinde</p>
+            <a class="code_link" href="https://github.com/Maktastix/portfolio_website.git"><i class="fa-brands fa-github"></i> Code for Portfolio Site</a>
     </footer>
     
 </body>

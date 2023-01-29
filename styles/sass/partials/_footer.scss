@@ -5,6 +5,21 @@
 footer{
     height: 100px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    p{
+        margin: 5px;
+    }
+
+    .code_link{
+        font-size: 0.6rem;
+        transition: 0.3s ease-in-out;
+
+        &:hover,
+        &:focus{
+            color: $gold_yellow;
+        }
+    }
 }
