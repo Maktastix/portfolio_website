@@ -1,0 +1,63 @@
+// Projects Section Partial
+
+@use 'variables' as *;
+
+.projects{
+    padding: 100px 20px;
+
+    .project_container{
+        margin: 100px 0;
+        display: flex;
+        align-items: center;
+
+        .project_image,
+        .project_details{
+            width: 50%;
+            margin: 20px;
+        }
+
+        .project_image img{
+            width: 100%;
+            border: 2px solid $gold_yellow;
+            border-radius: 16px;
+        }
+
+        .project_details a{
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            transition: 0.3s ease-in-out;
+        
+            &:hover,
+            &:focus{
+                background-color: $gold_yellow;
+                color: $dark_black;
+            }
+        }
+    }
+
+    .reverse{
+        display: flex;
+        flex-direction: row-reverse;
+
+        .project_details,
+        .project_image{
+            text-align: end;
+        }
+        .project_buttons{
+            justify-content: end;
+        }
+    }
+}
+
+.project_buttons{
+    display: flex;
+
+    .live_button{
+        margin-right: 15px;
+    }
+}

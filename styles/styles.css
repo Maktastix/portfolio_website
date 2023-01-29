@@ -253,6 +253,10 @@ h2 {
   font-size: 3rem;
 }
 
+h3 {
+  margin-bottom: 0;
+}
+
 li {
   list-style: none;
 }
@@ -273,6 +277,11 @@ p {
 
 .text_container {
   margin: 15px;
+}
+
+.tools {
+  margin-top: 0;
+  font-size: 0.8rem;
 }
 
 html {
@@ -466,8 +475,9 @@ header a:focus {
       -ms-flex-align: center;
           align-items: center;
   width: 200px;
+  height: 200px;
   margin: 20px;
-  padding: 30px;
+  padding: 20px;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
@@ -481,6 +491,72 @@ header a:focus {
 .skills_container:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.projects {
+  padding: 100px 20px;
+}
+.projects .project_container {
+  margin: 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.projects .project_container .project_image,
+.projects .project_container .project_details {
+  width: 50%;
+  margin: 20px;
+}
+.projects .project_container .project_image img {
+  width: 100%;
+  border: 2px solid #ffbb00;
+  border-radius: 16px;
+}
+.projects .project_container .project_details a {
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.projects .project_container .project_details a:hover, .projects .project_container .project_details a:focus {
+  background-color: #ffbb00;
+  color: #272727;
+}
+.projects .reverse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.projects .reverse .project_details,
+.projects .reverse .project_image {
+  text-align: end;
+}
+.projects .reverse .project_buttons {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.project_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.project_buttons .live_button {
+  margin-right: 15px;
 }
 
 .contact {
