@@ -8,30 +8,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1f2a91a9e1.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="./assets/icons8_m_key_inverse.png">
+    <link rel="icon" href="./assets/icons8_m_key_blue.png">
     <link rel="stylesheet" href="./styles/styles.css">
-    <title>Michael Makinde</title>
+    <title>John Doe</title>
 </head>
 
 <body>
 
     <header>
-        <div class="wrapper">
-            <div class="nav_links">
-                <a href="./index.html"><img src="./assets/icons8_m_key_dark.png" alt="Letter key M logo for site"></a>
-                <nav>
+        <div>
+            <nav>
+                <div class="wrapper nav_links">
+                    <a href="./index.html"><img src="./assets/icons8_m_key_inverse.png" alt="Letter key M logo for site"></a>
                     <ul>
                         <li><a href="#">HOME</a></li>
                         <li><a href="#">ABOUT</a></li>
                         <li><a href="#">PROJECTS</a></li>
                         <li><a href="#">CONTACT</a></li>
                     </ul>
-                </nav>
-            </div>
-            <div>
-                <h1>Michael Makinde</h1>
-                <p>Toronto Based Web Developer</p>
-                <button>View My Work<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </nav>
+            <div class="wrapper header_intro">
+                <h1>John Doe</h1>
+                <p>A Front-End Web Developer who enjoys building anything and everything. Come check it out! </p>
+                <a href="#">View My Work<i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </div>
     </header>
@@ -226,18 +226,18 @@
                     </div>
                 </div>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, quidem!</p>
-                <form class=form_message action="/submit-message" id="form_1">
+                <form class=form_message action="mailto:michael_makinde@outlook.com" id="form_1" method="POST" enctype="text/plain" name="email form">
                     <div class="name_container">
-                        <label for="name">NAME</label>
-                        <input type="text" id="name" name="email" placeholder="Enter your name" required>
+                        <label for="name"></label>
+                        <input type="text" id="name" name="name" placeholder="NAME" required>
                     </div>
                     <div class="email_container">
-                        <label for="email">EMAIL ADDRESS</label>
-                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        <label for="email"></label>
+                        <input type="email" id="email" name="email" placeholder="EMAIL ADDRESS" required>
                     </div>
                     <div class="message_container">
-                        <label for="message">MESSAGE</label>
-                        <textarea id="message" name="message" required cols="40" rows="8" placeholder="Enter your message"></textarea>
+                        <label for="message"></label>
+                        <textarea id="message" name="message" required cols="40" rows="8" placeholder="MESSAGE"></textarea>
                     </div>
                 </form>
                 <button type="submit" form="form_1" value="submit">Submit</button>

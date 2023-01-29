@@ -1,0 +1,19 @@
+// About Section Partial
+
+@use 'variables' as *;
+
+.about_me{
+    padding: 200px 20px;
+    background-color: $dark_black;
+
+    div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        p{
+            width: 70%;
+            text-align: center;
+        }
+    }
+}

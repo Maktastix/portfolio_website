@@ -11,9 +11,43 @@ html{
 h1,
 h2,
 h3,
-h4{
+h4,
+input,
+textarea{
     font-family: $header_font;
     letter-spacing: 2px;
     line-height: 40px;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 5rem;
+    line-height: 80px;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: $off_white;
+}
+
+nav a{
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+}
+
+p{
+   font-size: 1.2rem; 
+}
+
+.text_container{
+    margin: 15px;
 }
 

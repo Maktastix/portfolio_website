@@ -1,0 +1,95 @@
+// Contact Section Partial
+
+@use 'variables' as *;
+
+.contact{
+    background-color: black;
+    padding: 100px 20px;
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        button{
+            background-color: $light_black;
+            color: $off_white;
+            height: 50px;
+            width: 220px;
+            margin: 10px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            transition: 0.3s ease-in-out;
+        
+            &:hover,
+            &:focus{
+                background-color: $gold_yellow;
+                color: $dark_black;
+            }
+        }
+
+        h2{
+            margin: 0 0 50px 0;
+        }
+
+        .contact_icons{
+            display: flex;
+            width: 40%;
+
+            .media{
+                text-align: center;
+            }
+        }
+    }
+} 
+
+.contact_icons .media{
+    width: 100%;
+
+    .icon_container{
+        width: 100%;
+
+        i{
+            font-size: 60px;
+        }
+    }
+
+    .text_container a{
+        transition: 0.3s ease-in-out;
+
+        &:hover,
+        &:focus{
+            color: $gold_yellow;
+        }
+    }
+}
+
+form{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    div{
+        width: 100%;
+        margin: 10px;
+
+        input{
+            width: 100%;
+            height: 50px;
+        }
+
+        textarea{
+            width: 100%;
+        }
+
+        input,
+        textarea{
+            padding: 10px;
+        }
+    }
+}
