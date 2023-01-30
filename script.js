@@ -7,7 +7,7 @@ website.scrollButton = document.getElementById('back_to');
 website.scrollButton.addEventListener('click', () => {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-})
+});
 
 
 website.scrollFunction = function() {
@@ -16,14 +16,14 @@ website.scrollFunction = function() {
     } else {
         website.scrollButton.style.display = "none";
     }
-}
+};
 
 window.onscroll = function() {
     website.scrollFunction();
-}
+};
 
 website.init = () => {
     website.scrollFunction();
-}
+};
 
 website.init();
