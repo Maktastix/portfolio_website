@@ -26,5 +26,3 @@ website.init = () => {
 }
 
 website.init();
-
-console.log(website);
