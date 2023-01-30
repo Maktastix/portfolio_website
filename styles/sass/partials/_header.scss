@@ -100,12 +100,24 @@ header a:focus{
     color: $gold_yellow;
 }
 
-.hamburger_menu{
-    // display: none;
+#back_to{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+    z-index: 100;
+    background-color: $dark_black;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    transition: 0.3s ease-in-out;
 
-    i{
-        width: 50px;
-        height: 50px;
-        font-size: 50px;
+    &:hover,
+    &:focus{
+        color: $dark_black;
+        background-color: $gold_yellow;
     }
 }

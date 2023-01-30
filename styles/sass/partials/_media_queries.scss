@@ -52,8 +52,11 @@
         }
     }
     
-    .projects h2{
-        text-align: center;
+    .projects .wrapper h2{
+        display: flex;
+        justify-content: center;
+        
+
     }
 
     .projects .project_container{
@@ -93,5 +96,9 @@
     .projects .project_container .project_image,
     .projects .project_container .project_details{
         width: 90%;
+    }
+
+    .skills_container{
+        margin: 10px;
     }
 }

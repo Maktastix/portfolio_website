@@ -422,10 +422,31 @@ header a:focus {
   color: #ffbb00;
 }
 
-.hamburger_menu i {
-  width: 50px;
-  height: 50px;
-  font-size: 50px;
+#back_to {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 20px;
+  z-index: 100;
+  background-color: #272727;
+  width: 25px;
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20%;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+#back_to:hover, #back_to:focus {
+  color: #272727;
+  background-color: #ffbb00;
 }
 
 .about_me {
@@ -741,8 +762,13 @@ footer .code_link:hover, footer .code_link:focus {
   header nav .nav_links a {
     margin: 0 10px;
   }
-  .projects h2 {
-    text-align: center;
+  .projects .wrapper h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .projects .project_container {
     -webkit-box-orient: vertical;
@@ -777,5 +803,8 @@ footer .code_link:hover, footer .code_link:focus {
   .projects .project_container .project_image,
 .projects .project_container .project_details {
     width: 90%;
+  }
+  .skills_container {
+    margin: 10px;
   }
 }
