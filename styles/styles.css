@@ -244,6 +244,13 @@ textarea {
   text-transform: uppercase;
 }
 
+h1,
+h2 {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #ffbb00;
+  display: inline-block;
+}
+
 h1 {
   font-size: 5rem;
   line-height: 80px;
@@ -370,7 +377,7 @@ header .header_intro a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #484848;
+  background-color: #444444;
   color: #F2F4F5;
   height: 50px;
   width: 220px;
@@ -443,7 +450,7 @@ header a:focus {
 }
 
 .skills {
-  background-color: #484848;
+  background-color: #444444;
   padding: 100px 20px;
 }
 .skills img {
@@ -589,7 +596,7 @@ header a:focus {
           align-items: center;
 }
 .contact .wrapper button {
-  background-color: #484848;
+  background-color: #444444;
   color: #F2F4F5;
   height: 50px;
   width: 220px;

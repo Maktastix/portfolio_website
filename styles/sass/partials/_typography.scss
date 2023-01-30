@@ -20,6 +20,13 @@ textarea{
     text-transform: uppercase;
 }
 
+h1,
+h2{
+    padding-bottom: 10px;
+    border-bottom: 3px solid $gold_yellow;
+    display: inline-block;
+}
+
 h1{
     font-size: 5rem;
     line-height: 80px;
