@@ -1,7 +1,8 @@
+// JavaScript Application
+
 const website = {};
 
 website.scrollButton = document.getElementById('back_to');
-
 
 website.scrollButton.addEventListener('click', () => {
     document.body.scrollTop = 0;
