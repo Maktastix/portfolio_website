@@ -83,9 +83,14 @@
 }
 
 @media (max-width: 480px){
+
+    h1{
+        font-size: 3rem;
+    }
     header nav .nav_links{
         a{
-            font-size: 1.1rem;
+            font-size: 0.8rem;
+            margin: 0 5px;
         }
     }
 
