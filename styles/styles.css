@@ -553,6 +553,9 @@ header a:focus {
 }
 .projects .project_container .project_image img {
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   border: 2px solid #ffbb00;
   border-radius: 16px;
 }
@@ -747,7 +750,7 @@ footer .code_link:hover, footer .code_link:focus {
     width: 50px;
   }
   header .header_intro p,
-.about_me .wrapper p {
+  .about_me .wrapper p {
     width: 80%;
   }
   .skills img {
@@ -777,11 +780,11 @@ footer .code_link:hover, footer .code_link:focus {
             flex-direction: column;
   }
   .projects .project_container .project_image,
-.projects .project_container .project_details {
+  .projects .project_container .project_details {
     width: 70%;
   }
   .projects .reverse .project_details,
-.projects .reverse .project_image {
+  .projects .reverse .project_image {
     text-align: start;
   }
   .projects .reverse .project_buttons {
@@ -805,7 +808,7 @@ footer .code_link:hover, footer .code_link:focus {
     width: 100%;
   }
   .projects .project_container .project_image,
-.projects .project_container .project_details {
+  .projects .project_container .project_details {
     width: 90%;
   }
   .skills_container {
