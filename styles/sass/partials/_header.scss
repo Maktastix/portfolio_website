@@ -79,6 +79,11 @@ header{
             transform: rotate(90deg);
         }
     }
+
+    #hamburger,
+    #close{
+        display: none;
+    }
 }
 
 header::before{
